@@ -1,0 +1,110 @@
+/* CSS Document */
+.postit {
+	position: fixed;
+	margin:auto;
+	padding: 0;
+	top:40%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:200px;}
+body{
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+nav {
+	color:moccasin;
+	display: inline-block;
+	border: 0px solid;
+	bottom: 10px;
+	transform: translate(-50%/-50%);
+	position: absolute;
+	width: 100%;
+	height:auto;
+	font-size: 35px;
+	font-family: Helvetica, Arial, 'sans-serif';
+}
+ul {
+	list-style-type: none;
+	display: inline-block;
+	
+}
+li {
+	display: inline;
+	padding: 0px 10px;
+}
+ ul li:not(:last-child){
+        border-right: 0px solid 
+	 rgba(153, 151, 151, 1); 
+    }
+
+.buttonOpmaak {
+	display: inline-block;
+    background-color: mediumslateblue; /* Green */
+    border: 0px solid red;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+	text-decoration-color: aliceblue;
+	border-radius: 7px;
+}
+.buttonOpmaak:not(:last-child){ 
+	margin-right: 50px;
+    }
+.buttonOpmaak:hover {
+	background: #3F70D3;
+}
+
+a:link, a:visited {
+   text-decoration: none;
+	color: white;}
+
+.containerButtons {
+	position:absolute;
+	top: 60%;
+	left: 47%;
+    transform: translate(-40%,-50%);
+	width: auto;
+	 display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin:0px auto;
+    border:0px red solid;
+}
+
+button.a {
+	text-decoration: none;
+	color:#2C376F;
+	font-weight: bold;
+}
+button.a: hover {
+	color: aqua;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  top: 80%;
+  left: 0;
+  right: 0;
+  background-color: #2C376F;
+  overflow: hidden;
+  width: 100%;
+/* height zorgt ervoor dat je het tekstvierkant niet ziet*/
+  height: 0; 
+  transition: .5s ease;
+}
+
+.text-in-box {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

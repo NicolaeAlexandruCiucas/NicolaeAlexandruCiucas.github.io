@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.thead{
+	background-color:#293A82;
+	color: aliceblue;
+	font-family: 'Lato', sans-serif;
+	
+	
+}
+.tr{
+	background-color:#293A82;
+	color: aliceblue;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+th{
+	padding: 20px;
+}
+td {
+	padding:20px;
+}
+
+#caption{
+	background-color:#293A82;
+	color: aliceblue;
+	text-align: center;
+}
+#social-media li  {
+	background-color:#293A82;
+	color:aliceblue;
+	display:inline;
+	padding: 20px;
+	align-content: center;
+	
+	
+	
+	
+    
+    
+}
+table  {
+	width:100%;
+    background-color: #293A82;
+
+	
+}
+	
+	
+
+	
